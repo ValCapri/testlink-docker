@@ -21,9 +21,11 @@ RUN apk update && apk upgrade && \
         php-pdo \
         php-zip \
         php-mysql \
+        php-mysqli \
         php-sqlite3 \
         php-apcu \
         php-pdo_pgsql \
+        php-pdo_mysql \
         php-bcmath \
         php-gd \
         php-xcache \
