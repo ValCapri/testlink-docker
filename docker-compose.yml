@@ -24,6 +24,8 @@ php:
 
 db:
   image: mariadb:10
+  volumes:
+    - ./data/mysql:/var/lib/mysql
   environment:
    - MYSQL_DATABASE=test
    - MYSQL_ROOT_PASSWORD=testlink
